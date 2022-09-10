@@ -307,7 +307,7 @@ section {
 .assist .min {
     display: block;
 }
-.assist:hover {
+.assist:hover img{
     height: 100%;
     filter: saturate(100%);
     transition: 0.3s;
