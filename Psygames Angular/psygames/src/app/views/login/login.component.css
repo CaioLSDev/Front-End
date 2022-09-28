@@ -1,0 +1,80 @@
+.login {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.login legend{
+    font-family: "game";
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    background-color: chartreuse;
+    box-shadow: 0px 0px 3px black;
+}
+.login label{
+    font-family: "lemonb";
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.login input{
+    font-family: "lemonr";
+    text-align: center;
+    font-size: 10px;    
+}
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.botao input{
+    background-color: rgb(254, 189, 27);
+    font-family: "lemonb";
+    box-shadow: 0px 0px 3px black;
+    padding: 8px;
+    margin: 0px 5px 10px 5px;
+    border: 0;
+}
+.botao input:hover{
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.355);
+    transform: scale(110%);
+}  
+#loginpsy ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+#loginpsy li{ 
+    text-align: center;
+    justify-content: start;
+    padding: 3px 20px;
+}
+#cadastropsy ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+#cadastropsy li{ 
+    text-align: center;
+    justify-content: start;
+    padding: 3px 20px;
+}
+#cadastropsy input{ 
+    font-size: 10px;
+    width: 250px;
+}
+.error {
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+    font-size: 8px;
+    color: rgb(255, 0, 0);
+}
